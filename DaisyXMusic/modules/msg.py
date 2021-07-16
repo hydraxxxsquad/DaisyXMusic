@@ -17,15 +17,15 @@
 import os
 from DaisyXMusic.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+      START_MSG = "**Hello 💦 [{}](tg://user?id={})!**\n\n🤖 Saya adalah bot yang dibuat untuk memutar music di OS Telegram Groups & Channels.\n\n✅ Ketik /help untuk info selanjutnya."
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**Hey 💦 Selamat datang di {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {PROJECT_NAME} bisa memutar music di OS group kamu dan juga OS channel kamu
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next untuk instruksi**
 """,
 
 f"""
