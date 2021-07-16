@@ -172,8 +172,8 @@ def updated_stats(chat, queue, vol=100):
             stats += "\n\n"
             stats += "Volume : {}%\n".format(vol)
             stats += "Songs in queue : `{}`\n".format(len(que))
-            stats += "Now Playing : **{}**\n".format(queue[0][0])
-            stats += "Requested by : {}".format(queue[0][1].mention)
+            stats += "Sedang diputar : **{}**\n".format(queue[0][0])
+            stats += "Req sianjing : {}".format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -582,7 +582,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "Song not found.Try another song or maybe spell it properly."
+                "Lagu tidak ditemukan.Kalo cari lagu yang bener tolol!!!."
             )
             print(str(e))
             return
@@ -595,8 +595,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                    InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                    InlineKeyboardButton(text="👑 King", url=f"t.me/XXXsquad_18plus"),
+                    InlineKeyboardButton(text="Group XXX", url=f"t.me/XXXsquad_18plus"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
@@ -618,7 +618,7 @@ async def play(_, message: Message):
           await lel.edit("Give me something to play")
         # Looks like hell. Aren't it?? FUCK OFF
         try:
-            toxxt = "**Select the song you want to play**\n\n"
+            toxxt = "**Pilih dulu lagu yang mau lu putar**\n\n"
             j = 0
             useer=user_name
             emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣",]
@@ -665,7 +665,7 @@ async def play(_, message: Message):
 
             except Exception as e:
                 await lel.edit(
-                    "Song not found.Try another song or maybe spell it properly."
+                    "Lagu tidak ditemukan. Kalo cari lagu yang bener tolol!!!."
                 )
                 print(str(e))
                 return
@@ -678,8 +678,8 @@ async def play(_, message: Message):
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
-                        InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                        InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                        InlineKeyboardButton(text="👑 King", url=f"t.me/lifeinsinn"),
+                        InlineKeyboardButton(text="Group XXX", url=f"y.me/XXXsquad_18plus"),
                     ],
                     [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
                 ]
@@ -813,7 +813,7 @@ async def ytplay(_, message: Message):
 
     except Exception as e:
         await lel.edit(
-            "Song not found.Try another song or maybe spell it properly."
+            "Lagu tidak ditemukan.Kalo cari lagu yang bener tolol!!!."
         )
         print(str(e))
         return
@@ -826,8 +826,8 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="👑 King", url=f"t.me/lifeinsinn"),
+                InlineKeyboardButton(text="Group XXX", url=f"t.me/XXXsquad_18plus"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
@@ -1171,9 +1171,9 @@ async def lol_cb(b, cb):
         return
     useer_id = int(useer_id)
     if cb.from_user.id != useer_id:
-        await cb.answer("You ain't the person who requested to play the song!", show_alert=True)
+        await cb.answer("Bukan lu yang req lagu ini goblok!", show_alert=True)
         return
-    await cb.message.edit("Hang On... Player Starting")
+    await cb.message.edit("Sabar tod... ngocok dulu sono")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -1211,8 +1211,8 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="👑 King", url=f"t.me/lifeinsinn"),
+                InlineKeyboardButton(text="Group XXX", url=f"t.me/XXXsquad_18plus"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
