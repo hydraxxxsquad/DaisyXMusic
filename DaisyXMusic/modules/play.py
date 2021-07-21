@@ -595,8 +595,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                    InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                    InlineKeyboardButton(text="👑King", url=f"t.me/lifeinsinn"),
+                    InlineKeyboardButton(text="Group XXX", url=f"t.me/xxxsquad18plus"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
@@ -678,8 +678,8 @@ async def play(_, message: Message):
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
-                        InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                        InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                        InlineKeyboardButton(text="👑 King", url=f"t.me/lifeinsinn"),
+                        InlineKeyboardButton(text="Group XXX", url=f"t.me/xxxsquad18plus"),
                     ],
                     [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
                 ]
@@ -826,8 +826,8 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="👑 King", url=f"t.me/lifeinsinn"),
+                InlineKeyboardButton(text="Group XXX", url=f"t.me/xxxsquad18plus"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
@@ -1211,8 +1211,8 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="👑 King", url=f"t.me/lifeinsinn"),
+                InlineKeyboardButton(text="Group XXX", url=f"t.me/xxxsquad18plus"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
